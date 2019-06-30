@@ -1,0 +1,68 @@
+.jCarouselLite ul{
+width:100%;
+max-width:100%;
+height:auto;
+overflow:hidden;
+}
+
+.jCarouselLite{
+	margin-top:20px !important;
+}
+
+.jCarouselLite_wrapper{
+	position:relative;
+	margin-top:20px !important;
+
+}
+
+.jCarouselLite h4{
+margin-bottom:10px;
+}
+ .controls{
+	position: absolute;
+	top:-40px;
+	text-align:right;
+	right:0px;
+
+}
+ .controls a{
+	 display:inline-block;
+	 float:left;
+	 margin-left:1px;
+}
+
+
+
+ a.prev, a.next{
+	cursor:pointer;
+	display:block;
+}
+
+ a.prev{
+	background-image:url(../images/prevBtn.png);
+	background-color:#333333;
+	padding:3px;
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+}
+ a.next{
+  background-image:url(../images/nextBtn.png);
+  background-color:#333333;
+	padding:3px;
+	background-position:center center;
+    background-repeat: no-repeat;
+    bottom: 27px;
+    width:20px;
+	height:20px;
+	border-bottom-right-radius:5px;
+    border-top-right-radius:5px;
+}
+
+
+ a.prev:hover, a.next:hover{
+ opacity:0.8;
+ }

@@ -1,0 +1,281 @@
+/* Tablet (Portrait) */
+/* Width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 1030px) {
+#container, footer,.image-grid{
+width:678px;
+}
+#content{
+width:618px;
+}
+
+/* About us page
+----------------------------------------*/
+.box_text h2 {
+	font-size:30px;
+}
+.box_text h3 {
+	font-size:20px;
+	line-height:22px;
+	margin-bottom:10px;
+}
+
+#top_search {
+    width: 163px;
+}
+
+/* Portfolio
+----------------------------------------*/
+.image-grid li {
+    width: 155px;
+}
+.image-grid_3col li {
+    width: 217px;
+}
+.image-grid_2col li {
+    width: 342px;
+}
+.image-grid_1col li {
+    width:708px;
+}
+
+/* aside
+----------------------------------------*/
+aside .thumb_img{
+float:none;
+margin-bottom:10px;
+}
+}
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+#container, footer{
+width:240px;
+padding:20px;
+}
+
+.trapezoid {
+   	display:none;
+}
+
+#logo {
+    left: auto;
+	margin-bottom:20px;
+	text-align:center;
+	clear:both;
+	display:block;
+	float:left;
+}
+
+#content{
+	border:none;
+	padding-left:0px;
+	width:240px;
+	clear:both;
+	margin-top:30px;
+
+}
+.content_bot_left_sprite{
+	display:none;
+
+}
+
+/* Social Media
+----------------------------------------*/
+.social_media ul, .social_media h2{
+	margin-top:10px;
+	padding-left:0px;
+	text-align:center;
+}
+
+/* Flex slider
+----------------------------------------*/
+.flex-caption{
+display:none;
+}
+
+/* Menu section
+----------------------------------------*/
+.jqueryslidemenu {
+ margin:0 auto;
+ clear:both;
+ margin-top:20px;
+ background-color:transperant;
+ border:none;
+ }
+
+.jqueryslidemenu ul {
+ display:none;
+}
+.jqueryslidemenu {
+ width:100%;
+ margin-bottom:20px;
+}
+.jqueryslidemenu select {
+ display: block;
+ width:100%;
+
+ border:none;
+ border:1px solid #eee;
+ margin:0 auto;
+ padding:5px 0px;
+}
+ .jqueryslidemenu select option {
+ padding-bottom:3px;
+}
+
+
+/* sub header
+----------------------------------------*/
+.search_box{
+	width:100%;
+	text-align:center;
+	float:none;
+}
+.search_box #top_search_form{
+	text-align:center;
+	margin:0 auto;
+	right:50%;
+	position: absolute;
+	margin-right:-104px;
+
+
+}
+.sub_header h3{
+	float:none;
+	text-align:center;
+}
+
+/* About us
+----------------------------------------*/
+.box_text h2 {
+	font-size:20px;
+}
+.box_text h3 {
+	font-size:15px;
+	line-height:15px;
+	margin-bottom:10px;
+}
+
+.box .read_more{
+display:none;
+}
+
+/* Portfolio section
+----------------------------------------*/
+.image-grid img, .image-grid_3col img, .image-grid_2col img, .image-grid_1col img {
+ min-width:100%;
+}
+
+.image-grid, .image-grid_3col, .image-grid_2col, .image-grid_1col{
+	width:240px;
+}
+
+#list {
+	height:auto!important;
+	min-height:400px;
+}
+#list li {
+	width:240px;
+}
+
+.image-grid_1col .portfolio_text{
+	padding-top:4%;
+}
+
+.frontpage_featured_section, aside {
+	padding:20px;
+
+}
+.frontpage_featured_section .two_third_last #list li, .frontpage_featured_section .two_third_last #list li img{
+	width:200px!important;
+}
+
+/* Blog section
+----------------------------------------*/
+#blog_section article{
+	float:none;
+}
+
+#blog_section article{
+padding-bottom:25px;
+}
+
+
+/* pricing table
+----------------------------------------*/
+#pricing_table .v_space{
+padding-top:0px;
+}
+
+#pricing_table {
+	margin-top:0px;
+}
+
+.wide {
+	margin-top:0px;
+}
+
+/* Columns
+----------------------------------------*/
+.one_half, .one_half_last, .one_third, .one_third_last, .two_third, .two_third_last, .one_fourth, .one_fourth_last, .two_fourth, .two_fourth_last, .three_fourth, .three_fourth_last, .one_fifth, .one_fifth_last, .two_fifth, .two_fifth_last, .three_fifth, .three_fifth_last, .four_fifth, .four_fifth_last, #pricing_table .one_third, #pricing_table .one_fourth{
+ width: 100%;
+margin: 0 0 30px;
+
+}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+#container, footer{
+width:378px;
+padding:20px;
+}
+
+.trapezoid {
+   	display:none;
+}
+
+#content{
+	width:378px;
+}
+.social_media ul, .social_media h2{
+	margin-top:0px;
+
+}
+/* About us 
+----------------------------------------*/
+.box_text h2 {
+	font-size:25px;
+}
+.box_text h3 {
+	font-size:20px;
+}
+
+.box .read_more{
+	display:block;
+}
+
+/* Portfolio section
+----------------------------------------*/
+.image-grid img, .image-grid_3col img, .image-grid_2col img, .image-grid_1col img {
+ min-width:100%;
+ height:auto; 
+}
+
+#list {
+	height:auto!important;
+	min-height:600px;
+	width:418px;
+}
+
+#list li {
+ width:378px;
+}
+
+.frontpage_featured_section .two_third_last #list li, .frontpage_featured_section .two_third_last #list li img{
+	width:338px!important;
+}
+
+.two_third_last .one_third, .two_third_last .one_third_last{
+float:none;
+width:100%;
+}
+}

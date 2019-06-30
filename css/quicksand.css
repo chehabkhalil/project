@@ -1,0 +1,120 @@
+/* 2.1 =Splitter
+---------------------------------------------------------------------- */
+
+#filter, #filter ul {
+	margin-bottom:15px;
+}
+.splitter {
+	clear:both;
+}
+.splitter:after {
+	content: "";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.splitter ul {
+	margin-right: 0;
+	margin-top: 0;
+}
+.splitter ul li a {
+	margin-right:10px;
+	margin-top:10px;
+}
+.splitter li, .splitter ul, .splitter ul li a {
+	display: inline;
+	display: inline-block;
+	line-height: 1;
+}
+.splitter ul, .splitter ul li, .splitter ul li a {
+	background-image: url("i/buttons.png");
+	background-repeat: no-repeat;
+}
+.splitter ul li {
+}
+.splitter ul li:first-child {
+	margin-left: 0;
+}
+.splitter ul li a {
+	background-color: #F6F6F6;
+    border: 1px solid #E1E1E1;
+    color: #000000;
+    font-family: arial,helvetica,sans-serif;
+    font-weight: bold;
+    padding: 9px;
+}
+.splitter ul li a:hover {
+	color:#F57627;
+}
+.splitter ul li.selected-0 a, .splitter ul li.selected-1 a, .splitter ul li.selected-2 a, .splitter ul li.selected-3 a, .splitter ul li.selected-4 a, .splitter ul li.selected-5 a, .splitter ul li.selected-6 a, .splitter ul li.selected-7 a, .splitter ul li.selected-8 a, .splitter ul li.selected-9 a {
+	color: #F57627;
+	
+}
+/* 3.2 =Image Grid 4 col
+---------------------------------------------------------------------- */
+.clearfix:after {
+	background-color: #333333;
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.image-grid, .image-grid_3col, .image-grid_2col {
+	width:940px;
+	margin:0px;
+	padding:0px;
+	
+}
+.image-grid:after, .image-grid_3col:after, .image-grid_2col:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.image-grid li img, .image-grid li strong, .image-grid_3col li img, .image-grid_3col li strong, .image-grid_2col li img, .image-grid_2col li strong {
+	display: block;
+}
+.image-grid li strong, .image-grid_3col li strong, .image-grid_2col li strong {
+	color: #fff;
+}
+.demo {
+	float:left;
+	overflow:hidden;
+}
+.image-grid li, .image-grid_3col li, .image-grid_2col li, .image-grid_1col li {
+	float: left;
+	text-align: center;
+	font-family: "Helvetica Neue", sans-serif;
+	line-height: 17px;
+	color: #686f74;
+	margin-right:28px;
+	margin-bottom:30px;
+	list-style:none;
+	overflow:hidden;
+	background-image: url(../images/ajax-loader.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	position:relative;
+}
+/* 3.2 =Image Grid 4 col
+---------------------------------------------------------------------- */
+.image-grid li {
+	width:199px;
+}
+/* 3.2 =Image Grid 3 col
+---------------------------------------------------------------------- */
+.image-grid_3col li {
+	width:274px;
+}
+/* 3.2 =Image Grid 2 col
+---------------------------------------------------------------------- */
+.image-grid_2col li {
+	width:426px;
+}
+/* 3.2 =Image Grid 1 col
+---------------------------------------------------------------------- */
+.image-grid_1col li {
+	width:880px;
+}

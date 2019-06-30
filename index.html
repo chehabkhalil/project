@@ -1,0 +1,367 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="viewport" content="width=device-width" />
+<title>Sport Shop</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<link rel="stylesheet" type="text/css" href="css/jqueryslidemenu.css" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="css/widget.css" />
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="css/quicksand.css"/>
+<link rel="stylesheet" type="text/css" href="css/portfolio.css"/>
+<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'/>
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+<script type="text/javascript" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="js/jqueryslidemenu.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/quicksand.js"></script>
+<script type="text/javascript" src="js/portfolio_sortable.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.4.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+portfoliohover();
+imagelightbox();
+});
+</script>
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+    <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+
+<div class="slide_container"> 
+  
+
+  <nav id="menu">
+
+  </nav>
+  
+
+  <div id="btn">
+    <img src="images/panier.png" width="25" height="25">
+    <span><p id="nbr_item"></p></span>
+    <p id="tot"></p>
+</div>
+</div>
+
+
+
+<!-- container Start -->
+<section id="container">
+
+
+
+
+<!-- social media Start -->
+<div class="social_media">
+<div>
+    <h2>Social With Us</h2>
+    <ul>
+        <li><img src="images/rss_icon.png" alt="img" /></li>
+        <li><img src="images/dribble_icon.png" alt="img" /></li>
+        <li><img src="images/twittter_icon.png" alt="img" /></li>
+        <li><img src="images/facebook_icon.png" alt="img" /></li>
+    </ul>
+</div>
+</div>
+<!-- social media end -->
+<!-- Nav start -->
+<nav id="myslidemenu" class="jqueryslidemenu clearfix">
+        <ul>
+            <li ><a class="active" href="#">HOME</a></li>
+            <li><a href="about.html">About</a>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+        </nav>
+        <!-- Nav end -->
+<!-- trapezoid start -->
+<article class="trapezoid">
+    <span class="trapezoid_left_curve"></span>
+    <span class="trapezoid_right_curve"></span>
+</article>
+<!-- trapezoid end -->
+<!-- logo start -->
+<div id="logo">
+    <a href="index.html"><img src="images/logo.png" alt="img" /></a>
+</div>
+<!-- logo end -->
+
+
+<!-- content start -->
+<section id="content">
+
+<div class="sub_header">
+        <h3><i class="icon-th-list"></i> Sport shoes <span>12</span> Product</h3>
+<div class="search_box">
+    <form id="top_search_form" method="get" role="search">
+        <input id="search_text" type="text" name="s" value="">
+        <input id="searchsubmit" class="submit" type="submit">
+    </form>
+</div>
+</div>
+
+<div class="clear">&nbsp;</div>	
+
+<ul class="splitter" id="filter">
+        <li>
+        <ul>
+            <li class="segment-1 selected-1"><a href="#" data-value="all">All</a></li>
+            <li class="segment-0"><a href="#" data-value="Women">Women</a></li>
+            <li class="segment-2"><a href="#" data-value="Men">Men</a></li>
+            <li class="segment-3"><a href="#" data-value="Kids">Kids</a></li>
+        </ul>
+        </li>
+    </ul>
+    
+
+
+<div class="demo">
+<ul id="list" class="image-grid">
+	<li data-id="id-1" class="Men">
+        <img src="images/i1.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>CQ Sport Shoes</h2>
+                    <p>Price : <span class="pr">200</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i1.jpg" class="zoom example6"></a>
+                    <a href="#?id-1" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-2" class="Men">
+        <img src="images/i2.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Light Running Shoes</h2>
+                    <p>Price : <span class="pr">180</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i2.jpg" class="zoom example6"></a>
+                    <a href="#?id-2" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-3" class="Women">
+        <img src="images/i3.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Comfortable Shoes</h2>
+                    <p>Price : <span class="pr">220</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i3.jpg" class="zoom example6"></a>
+                    <a href="#?id-3" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>      
+    <li data-id="id-4" class="Women">
+        <img src="images/i4.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Running Shoes</h2>
+                    <p>Price : <span class="pr">169</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i4.jpg" class="zoom example6"></a>
+                    <a href="#?id-4" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-5" class="Kids">
+        <img src="images/i5.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Sneakers</h2>
+                    <p>Price : <span class="pr">80</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i5.jpg" class="zoom example6"></a>
+                    <a href="#?id-5" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-6" class="Kids">
+        <img src="images/i6.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Kids Sport</h2>
+                    <p>Price : <span class="pr">80</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i6.jpg" class="zoom example6"></a>
+                    <a href="#?id-6" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-7" class="Men">
+        <img src="images/i1.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>CQ Sport Shoes</h2>
+                    <p>Price : <span class="pr">200</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i1.jpg" class="zoom example6"></a>
+                    <a href="#?id-7" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li> 
+    <li data-id="id-8" class="Men">
+        <img src="images/i2.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Light Running Shoes</h2>
+                    <p>Price : <span class="pr">180</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i2.jpg" class="zoom example6"></a>
+                    <a href="#?id-8" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-9" class="Women">
+        <img src="images/i3.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Comfortable Shoes</h2>
+                    <p>Price : <span class="pr">220</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i3.jpg" class="zoom example6"></a>
+                    <a href="#?id-9" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-10" class="Women">
+        <img src="images/i4.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Running Shoes</h2>
+                    <p>Price : <span class="pr">169</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i4.jpg" class="zoom example6"></a>
+                    <a href="#?id-10" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-11" class="Kids">
+        <img src="images/i5.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Sneakers</h2>
+                    <p>Price : <span class="pr">80</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i5.jpg" class="zoom example6"></a>
+                    <a href="#?id-11" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+    <li data-id="id-12" class="Kids">
+        <img src="images/i6.jpg" alt="img" />
+        <div class="portfolio_box">        
+            <div class="portfolio_text">
+                    <h2>Kids Sport</h2>
+                    <p>Price : <span class="pr">80</span> TND</p>
+                <span class="portfolio_link_icons">
+                    <a href="images/i6.jpg" class="zoom example6"></a>
+                    <a href="#?id-12" class="link_post"></a>
+                </span>
+            </div>
+        </div>
+    </li>
+</ul>    
+</div>
+  
+<span class="content_bot_left_sprite"></span>
+
+</section>
+<!-- content end -->
+
+</section>
+<!-- container end -->
+
+	
+<!-- footer start -->
+<footer>
+        <div class="one_third">
+        <div class="widget_container">
+            <h4>Copright</h4>
+        <p>Copyright © 2019 ~ SPORTExpress (Designed By Khalil Chehab)</p>
+        </div>
+        </div>
+        
+        <div class="one_third">
+        <div class="widget_container">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>
+                    <div class="thumb_img"><i class="icon-envelope-alt"></i></div>
+                    <div class="description">E- Mail Us: <span>khalilisig@gmail.com</span></div>
+                </li>
+                <li>
+                    <div class="thumb_img"><i class="icon-phone-sign"></i></div>
+                    <div class="description">Call Us at: <span>22-390-492</span></div>
+                </li>
+            </ul>
+        </div>
+        </div>
+        
+        <div class="one_third_last">
+        <div class="widget_container">
+            <h4>Social Network</h4>
+            <ul>
+                <li>
+                    <div class="thumb_img"><i class="icon-twitter"></i></div>
+                    <div class="description">Follow Us On: <span>Twitter</span> Website</div>
+                </li>
+                <li>
+                    <div class="thumb_img"><i class="icon-facebook-sign"></i></div>
+                    <div class="description">Follow Us On: <span>Facebook</span> Website</div>
+                </li>
+            </ul>
+        </div>
+        </div>
+        </footer>
+<!-- footer end -->
+
+<script>
+$(function() {
+	var openBtn = $('#btn'),
+		slideMenu = $('#menu'), 
+		layer = $('<div />').addClass('layer');
+	openBtn.on("click", function() {
+        if(document.getElementsByClassName('p_title').length>0){
+		if (slideMenu.is(':hidden')) {
+			layer.appendTo('body');
+			slideMenu.slideDown(300); 
+		} else {
+			slideMenu.slideUp(300);
+			layer.remove();
+        }}
+        else  if(document.getElementsByClassName('p_title').length==0){
+            slideMenu.slideUp(300);
+			layer.remove();
+        }
+	});
+});
+</script>
+<script src="code.js"></script>
+</body>
+</html>
